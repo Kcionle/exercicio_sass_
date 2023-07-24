@@ -1,0 +1,13 @@
+@use 'cores';
+@use 'reset';
+@use 'header';
+@use 'produtos';
+@use 'telas';
+
+body {
+    background-color: cores.$corPrincipal;
+
+    li{
+        list-style: none; 
+    }
+}

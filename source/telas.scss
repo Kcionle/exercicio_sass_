@@ -1,20 +1,18 @@
-@media screen and (max-width: 1023px) {
+
+  @media screen and (max-width: 1023px) {
     .container {
-        max-width: 80%;
+      max-width: 80%;
     }
-  
     .products {
-        grid-template-columns: repeat(2, 48.5%);
-        column-gap: 3%;
+      grid-template-columns: repeat(2, 48.5%);
+      column-gap: 3%;
     }
   }
-  
   @media screen and (max-width: 767px) {
     .products {
-        display: block;
+      display: block;
     }
-  
-    .product-item  {
-        margin-bottom: 32px;
+    .product-item {
+      margin-bottom: 32px;
     }
   }

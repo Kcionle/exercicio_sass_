@@ -2,12 +2,12 @@
 
 section {
     padding: 56px 0;
-
+}
     .container {
         max-width: 1024px;
         width: 100%;
         margin: 0 auto;
-
+    }
         .products {
             margin-top: 40px;
             display: grid;
@@ -15,31 +15,29 @@ section {
             column-gap: 1%;
             row-gap: 4%;
             width: 100%;
-        
+        }
             .product-item {
-        
+
+
                 img {
                     width: 100%;
                     border-radius: 16px;
                 }
-        
+
+
                 .product-button {
                     display: block;
-                    background-color:cores.$CorBotao;
-                    color:cores.$corterceira;
+                    background-color: cores.$CorBotao;
+                    color: cores.$corterceira;
                     text-align: center;
                     padding: 8px 0;
                     border-radius: 8px;
                     margin-top: 8px;
                     text-decoration: none;
-        
+
+
                     &:hover {
-                        background-color:cores.$corBotaoClick;
+                        background-color: cores.$corBotaoClick;
                     }
                 }
-        
-        
             }
-        }
-    }
-}
